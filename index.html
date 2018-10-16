@@ -183,12 +183,14 @@
     e.addEventListener('click', update)
 
     ava = document.querySelector('img')
-    ava.addEventListener('mouseover', function () {
+    function easterEgg() {
       ava.src = 'https://vitalyavolyn.me/images/avatar-clown.jpg'
       setTimeout(function () {
         ava.src = 'https://vitalyavolyn.me/images/avatar.jpg'
       }, 3000)
-    })
+    }
+    ava.addEventListener('mouseover', easterEgg)
+    ava.addEventListener('click', easterEgg)
   </script>
   <script>
     !function (v, i, t, a, l, y) {
