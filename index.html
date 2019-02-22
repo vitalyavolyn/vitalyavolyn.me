@@ -16,10 +16,13 @@
   <meta name="twitter:site" content="@vitalyavolyn" />
   <meta name="twitter:title" content="Виталя Волынский" />
   <meta name="twitter:description" content="Обычный мальчик со скучным сайтом" />
-  <meta name="twitter:image" content="https://vitalyavolyn.me/images/avatar-l.jpg" />
+  <meta name="twitter:image" content="https://vitalya.me/images/avatar-l.jpg" />
 
+  <meta property="og:title" content="Виталя Волынский" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vitalya.me" />
   <meta property="og:description" content="Обычный мальчик со скучным сайтом" />
-  <meta property="og:image" content="https://vitalyavolyn.me/images/avatar-l.jpg" />
+  <meta property="og:image" content="https://vitalya.me/images/avatar-l.jpg" />
 
   <style>
     html {
@@ -125,15 +128,11 @@
         width: 15rem;
       }
     }
-
-    /* css это худшее что можно было придумать
-    
-    ну или я просто тупой. надо бы посмотреть на ютубе пару гайдов */
   </style>
 </head>
 
 <body>
-  <img src="https://vitalyavolyn.me/images/avatar.jpg" />
+  <img src="https://vitalya.me/images/avatar.jpg" />
   <h1>Виталя Волынский</h1>
   <h2>Обычный мальчик со скучным сайтом</h2>
 
@@ -164,9 +163,8 @@
   </ul>
 
   <script>
-    // попытка в прелоад, надеюсь, работает
     i = new Image()
-    i.src = 'https://vitalyavolyn.me/images/avatar-clown.jpg'
+    i.src = 'https://vitalya.me/images/avatar-clown.jpg'
 
     t = [
       'Реальный кекс',
@@ -184,9 +182,9 @@
 
     ava = document.querySelector('img')
     function easterEgg() {
-      ava.src = 'https://vitalyavolyn.me/images/avatar-clown.jpg'
+      ava.src = 'https://vitalya.me/images/avatar-clown.jpg'
       setTimeout(function () {
-        ava.src = 'https://vitalyavolyn.me/images/avatar.jpg'
+        ava.src = 'https://vitalya.me/images/avatar.jpg'
       }, 3000)
     }
     ava.addEventListener('mouseover', easterEgg)
